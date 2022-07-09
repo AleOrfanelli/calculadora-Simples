@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(180, 168, 147);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 22px;
+}
+
+.calculadora {
+    background-color: rgb(90, 80, 62);
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 700px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px rgba(20, 18, 15, 0.973);
+}
+
+.divcalculo {
+    margin: auto;
+    width: 510px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divnumber {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input {
+    font-size: 22px;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+.opercalculo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#operacao {
+    font-size: 23px;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.divbutton {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#result {
+    color: green;
+    background-color: white;
+    border: 1px solid black;
+    height: 23px;
+    width: 500px;
+    padding: 4px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 22px;
+    margin: auto;
+}
+
+#btn-calc {
+    color: rgb(2, 92, 2);
+}
+
+#btn-limp {
+    color: rgb(92, 23, 2);
+}

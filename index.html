@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Alejandro Orfanelli Salgado Rodriguez</h1>
+    <form class="calculadora">
+        <h1>Calculadora</h1>
+        <div class="divcalculo">
+            <div class="divnumber">
+                <input type="number" name="txt1" id="txt1" placeholder="Digite um número">
+                <input type="number" name="txt2" id="txt2" placeholder="Digite um número">
+            </div>
+            <div class="opercalculo">
+                <select name="operacao" id="operacao">
+                    <option value="somar" id="somar">+</option>
+                    <option value="subtrair" id="subtrair">-</option>
+                    <option value="dividir" id="dividir">/</option>
+                    <option value="multiplicar" id="multiplicar">*</option>
+                </select>
+            </div>
+            <div class="divbutton">
+                <input type="button" value="Calcular" id="btn-calc" onclick="calcular()">
+                <INPUT type="reset" value="Limpar" id="btn-limp" onclick="limpar()">
+            </div>
+        </div>
+        </div>
+        <div id="result">
+            Resultado...
+        </div>
+
+    </form>
+
+    <script src="calculadora.js"></script>
+
+</body>
+
+</html>
